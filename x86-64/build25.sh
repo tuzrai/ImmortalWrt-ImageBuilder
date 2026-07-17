@@ -48,11 +48,14 @@ echo "$(date '+%Y-%m-%d %H:%M:%S') - 开始构建固件..."
 PACKAGES=""
 PACKAGES="$PACKAGES curl"
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 PACKAGES="$PACKAGES luci-theme-argon"
 PACKAGES="$PACKAGES luci-app-argon-config"
 PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 #25.12
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
+PACKAGES="$PACKAGES openssh-sftp-server"
 
 # ======== shell/apk-custom-packages.sh =======
 # 合并imm仓库以外的第三方插件 暂时注释
