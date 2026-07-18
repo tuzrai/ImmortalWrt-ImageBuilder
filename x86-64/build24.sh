@@ -56,7 +56,8 @@ PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
-
+# 仅移除 legacy 实现，保留 iptables 命令（指向 nftables 兼容层）
+PACKAGES="PACKAGES iptables-nft -iptables-legacy -arptables -ebtables -firewall -firewall3"
 
 # ======== shell/custom-packages.sh =======
 # 合并imm仓库以外的第三方插件
