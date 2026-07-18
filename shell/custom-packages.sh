@@ -73,7 +73,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-nikki-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-rtp2httpd luci-i18n-rtp2httpd-zh-cn"
 # 静态文件服务器dufs
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-dufs-zh-cn"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES -iptables -iptables-mod-* -kmod-ipt-* -arptables -ebtables -firewall -firewall3"
+#CUSTOM_PACKAGES="-iptables -iptables-mod-* -kmod-ipt-* -arptables -ebtables -firewall -firewall3"
 
 
 #===========================以下imm仓库内的软件==============================↓
