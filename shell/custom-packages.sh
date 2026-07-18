@@ -73,9 +73,6 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-nikki-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-rtp2httpd luci-i18n-rtp2httpd-zh-cn"
 # 静态文件服务器dufs
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-dufs-zh-cn"
-# 仅移除 legacy 实现，保留 iptables 命令（指向 nftables 兼容层）
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES -iptables-legacy -arptables -ebtables -firewall -firewall3"
-
 
 #===========================以下imm仓库内的软件==============================↓
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-3cat-zh-cn"
